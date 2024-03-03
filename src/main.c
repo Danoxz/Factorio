@@ -118,14 +118,4 @@ int main()
         }
         napms(DELAYMS);
     }
-
-    if (1)
-        printf("asd");
-
-
-    if (1)
-        printf("asd");
-
-    if (1)
-        printf("asd");
 }
