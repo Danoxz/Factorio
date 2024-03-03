@@ -7,7 +7,7 @@ SRC = $(SRC_PATH)/config.c $(SRC_PATH)/snaketools.c $(SRC_PATH)/gametools.c $(SR
 .PHONY: all build clean run
 
 all: build
-	@echo "Done building!\n"
+	@echo "Done building!"
 
 build:
 	$(CC) $(CFLAGS) $(SRC) -o $(BUILD_PATH)/snake_game -lncurses
